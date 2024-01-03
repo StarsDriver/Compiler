@@ -1,0 +1,16 @@
+main
+{
+	int a;int b;int c;int z;int i;
+	{	
+		a=1;b=1;
+		@(a);@(b);
+		z=20;
+		for(i=0;i<z;i=i+1)
+		{
+			c=a+b;
+			a=b;
+			b=c;
+			@(c);
+		}
+	}
+}

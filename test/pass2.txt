@@ -1,0 +1,26 @@
+main
+{
+	int a;
+	int b;
+	int c;
+	{	
+		a=10;
+		b=5;
+		c=2;
+		if(a>b||c>b&&a>b)
+		{
+			if(b<c)
+			{
+				c=a+b;
+				@(c);
+				b=a+c;
+				@(b);
+			}else
+			{
+				c=1;b=2;
+				@(c);@(b);
+			}
+
+		}
+	}
+}

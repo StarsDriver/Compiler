@@ -1,0 +1,20 @@
+main
+{
+	int a;
+	int b;
+	int c;
+	{
+		a=50;
+		b = 45;
+		c=15;
+		while(a>b)
+		{
+			a = a-1;
+			@(a);
+		}
+		for(b=10;b<c;b=b+1)
+		{
+			@(b);
+		}
+	}
+}

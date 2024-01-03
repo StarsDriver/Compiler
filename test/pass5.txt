@@ -1,0 +1,21 @@
+main
+{
+	int a;
+	int b;int c;
+	{
+		a=10;b=5;c=10;
+		if(a>b)
+		{
+			for(a=1;a<b;a=a+1)
+			{
+				@(a);
+				while(b<c)
+				{
+					b=b+1;
+					@(b);
+				}
+			}
+		}
+	}	
+
+}
